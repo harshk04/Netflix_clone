@@ -1,0 +1,26 @@
+html,body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+container{
+    width: 100%;
+    max-width: 1200px;
+}
+header{
+    background-color: transparent;
+    position: fixed;
+}
+
+.left-cont,.right-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.header .brand{
+    max-width: 10px;
+}

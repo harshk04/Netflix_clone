@@ -9,6 +9,28 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <script src="script.js"></script>
+ <header id="header">
+<div class="container">
+    <div class="left-cont">
+        <img class="brand" src="images/logo.png" alt="logo">
+        <ul class="main-nav">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">TV Shows</li>
+            <li class="nav-item">Movies</li>
+            <li class="nav-item">News & Popular</li>
+            <li class="nav-item">My List</li>
+            <li class="nav-item">Browse by language</li>
+        </ul>
+    </div>
+    <div class="right-cont">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="search-icon" data-name="Search"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 11C14 14.3137 11.3137 17 8 17C4.68629 17 2 14.3137 2 11C2 7.68629 4.68629 5 8 5C11.3137 5 14 7.68629 14 11ZM14.3623 15.8506C12.9006 17.7649 10.5945 19 8 19C3.58172 19 0 15.4183 0 11C0 6.58172 3.58172 3 8 3C12.4183 3 16 6.58172 16 11C16 12.1076 15.7749 13.1626 15.368 14.1218L24.0022 19.1352L22.9979 20.8648L14.3623 15.8506Z" fill="currentColor"></path></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="Hawkins-Icon Hawkins-Icon-Standard" data-name="Notification"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 4.07092C16.3922 4.55624 18.9998 7.4736 18.9998 11V15.2538C20.0486 15.3307 21.0848 15.4245 22.107 15.5347L21.8926 17.5232C18.7219 17.1813 15.409 17 11.9998 17C8.59056 17 5.27764 17.1813 2.10699 17.5232L1.89258 15.5347C2.91473 15.4245 3.95095 15.3307 4.99978 15.2538V11C4.99978 7.47345 7.6076 4.55599 11 4.07086V2L13 2V4.07092ZM16.9998 15.1287V11C16.9998 8.23858 14.7612 6 11.9998 6C9.23836 6 6.99978 8.23858 6.99978 11V15.1287C8.64041 15.0437 10.3089 15 11.9998 15C13.6907 15 15.3591 15.0437 16.9998 15.1287ZM8.62568 19.3712C8.6621 20.5173 10.1509 22 11.9993 22C13.8477 22 15.3365 20.5173 15.373 19.3712C15.38 19.1489 15.1756 19 14.9531 19H9.04555C8.82308 19 8.61862 19.1489 8.62568 19.3712Z" fill="currentColor"></path></svg>
+   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAn1BMVEX/rQH/rQD/////qwD/qQD///38qQD8rQD/pwD5qQD9/vn5qwD6owD0y3z3pADz0Y33u1X3xGf7u0b88+H67tH8+/L1wFj36sny1576sBn568X00ZT30Yv2zoT2uEf3tjv6sin55bz2x3HzyGv679j23av8+er0sS365cLwpg7lpyTxrRrTmzPspRrfpS7mqzrRpUPEkjrirkrWmSLLkSQVln3yAAADj0lEQVRoge2Zi3aiMBCGCQkBRLmIKFSLkQLuKtJ2u+//bBuQW4tuo1jpKfl6jqKSmWTmDzBTQRg4oHwBfXziDBguveHCc8/pCS49Tk9w6Q0XnntOT3DpcXqCS2+48Nx/N7LAQAhvFqDMFJRZz5YFrJmWNVVRd/+lLYxO/nxSGKphj0TRmVkYdJaXVtiaYzbpAaAtxAIXX7vqIzL0wtLWitEWfhBFqRiz7Bh/3a5MiSuFZQR6FKXjEInid3EO8LK0RXHWLEO0KlwZUZflAy1u2lrC9hnlS3UwdeoBkhhq4HrpCes69PRoNmaQnjlqDrFJh9VDs7l4MR4zjDFHzSG2eiv3EnXfjn4L8i5fC9xF+mTUiL64UVruW1kDeNN0P0HC9bkHwqK2JIkBZLnj+Y3o2163fe83VjLTWGzJaJJv+XzHTk9fqplR3GzZuS1nzWQLAOWp2HvhFjHfp84wnhS2ZoRBd8cJILJahOEmUNnvkmdtQWJktp7Uk+k+JRoIBIQ1GSPQ/u3iT7Ut2D7z/Kwp16z2q21xbgd/zh8uPPecnuDS4/QEl95PB+ZPm6fCfadsC9jz8pLlFrlH8MLBkLixbXQqlmvn3mSuZyUIYwkEFc11qmq5K9Cipafjekx9KjpZ3d/knTJJjPXu3oFm59Ycgyif5QAIihcsjhWulLkHHwN2saDAuuz9OJEvow9tz/qA1nTYM6OyVULHjLLgd5QezFZftP1EKTS2AkQtU7SshII2j+zsrLK7Epo3kR70Y7HRsbGjgOiKoiBEJwIhQooy1kngzkbFovP2ghgHOmt9/xma+675RdMQPkTLSZDxuIoewspzSTi5RXe8AKBtnVOp0Tat20jNb0cLS4ZndulV1zKqaGLE7xfYJp+AFLu+DsGN73hARqq1cf7rnhJHpnrxJZJxBlDR51HVfy6b4FVM4s1qO1boKuXODaKzM8B4P3d/hU5Ti04c/nItorL8M6jbXS1LKkRYI1PTmjwahvEYzP01kTGCVXa//GknFxbd8Tmw/II/T313+IM2pye49IYLzz2nJ7j0fjqNQB/rnbtGPmsqgLyzAOgb/RPk0v8d5LX9vZMFbSvTcmcPSbI7yB453C0AIH1+SZ6T5PklTV52abJ+Tf8kyeFu7t/2Sfp6SJLX5JCq+zT5m7ylu7evKvxa7mnuaZWpZS+0ylcFWZOrptwdLjQ0zceeanWU6XDwl51//3UuZBOd1Q8AAAAASUVORK5CYII=" alt="">
+    </div>
+</div>
+ </header>
+ 
+ 
+ <script src="script.js"></script>
 </body>
 </html>
