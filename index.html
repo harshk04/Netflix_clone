@@ -67,12 +67,12 @@
             membership .
           </p>
 
-          <div class="email__form__container">
+          <div class="email__form__container" id="input">
             <div class="form__container">
-              <input type="email" class="email__input" placeholder=" " />
-              <label class="email__label">xyz@mail.com</label>
+              <input type="email" class="email__input" id="email_id" placeholder=" Email" />
+              <!-- <label class="email__label">xyz@mail.com</label> -->
             </div>
-            <button class="primary__button">
+            <button type="submit" class="primary__button">
               Get Started <i class="fal fa-chevron-right"></i>
             </button>
           </div>
@@ -262,12 +262,12 @@
             Ready to watch? Enter your email to create or restart your
             membership.
           </h3>
-          <div class="email__form__container">
+          <div class="email__form__container" id="input">
             <div class="form__container">
-              <input type="email" class="email__input" placeholder=" " />
-              <label class="email__label">Email Address</label>
+              <input type="email" class="email__input" id="email_id" placeholder="Email " />
+          
             </div>
-            <button class="primary__button">
+            <button type="submit" class="primary__button" id="submit">
               Get Started <i class="fal fa-chevron-right"></i>
             </button>
           </div>
@@ -312,8 +312,10 @@
             id="languagesSelect"
             class="language__drop__down"
           >
-            <option value="english" selected>English</option>
-            <option value="hindi">हिन्दी</option>
+          <option value="english" selected>English</option>
+                <option value="hindi">हिन्दी</option>
+                <option value="gujarati">ગુજરાતી</option>
+                <option value="telgu">తెలుగు</option>
           </select>
         </div>
       </div>
@@ -323,5 +325,6 @@
     </footer>
 
     <script src="script.js"></script>
+  <script src="mail.js"></script>
   </body>
 </html>
