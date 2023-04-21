@@ -10,6 +10,11 @@
     font-family: "Poppins", sans-serif;
   }
   
+button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
   .navbar {
     position: absolute;
     top: 0;
@@ -62,7 +67,7 @@
   
   .hero__bg__image__container {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
   }
   
   .hero__bg__image {
@@ -202,7 +207,7 @@
     height: 100%;
     max-width: 73%;
     max-height: 54%;
-    z-index: -2;
+    z-index: -1;
   }
   
   .feature__backgroud__video {
@@ -349,6 +354,10 @@
     color: #757575;
   }
   
+  .material-symbols-outlined{
+    color: #dc030f;
+    
+  }
   @media (min-width: 768px) {
     .hero__bg__image__container {
       height: 100vh;
