@@ -8,11 +8,8 @@
     storageBucket: "netflix-clone-61142.appspot.com",
     messagingSenderId: "787572728881",
     appId: "1:787572728881:web:1535ca6e74f6bce7292110"
-  };
-
+  }
  
-
-
   const app = initializeApp(firebaseConfig);
 
 firebase.initializeApp(firebaseConfig);
