@@ -1,7 +1,7 @@
 # Netflix-Clone
 This is the core code from scratch to clone the landing page of Netflix using **HTML, CSS and JavaScript.**
 
-## 📸 Screenshots
+## 📸 Sneak Peek of the Page 🙈 
 ![image](https://user-images.githubusercontent.com/79099734/156505537-8e28ee14-dd20-4299-9eea-984d7068c7fd.png)
 ![image](https://user-images.githubusercontent.com/79099734/156505592-42d7e884-e72c-41b8-8efe-856d1aeaf4b1.png)
 ![image](https://user-images.githubusercontent.com/79099734/156505619-e344eb2f-9298-4f76-8d59-d0f6a4f108dc.png)
@@ -88,11 +88,12 @@ git push origin YourBranchName
 **11.** **Congratulations!** You've made your first contribution! 🙌🏼
 
 
+### 📬 Contact Me
+If you want to contact me, you can reach me through below handles.
 
-## All the best! 🥇
+&nbsp;&nbsp;<a href="https://www.linkedin.com/in/pushpak-kumawat-b4bb921ba/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
-<p align="center">
+© 2023 Harsh
 
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Susmita-Dey/Netflix-Clone)
 
-</p>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
